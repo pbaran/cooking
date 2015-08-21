@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Chunk;
+	src: url("Chunk.woff");
+}
+
+body {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Georgia;
+	/*background-color: #fdfd96;*/ /* pastel yellow */
+	/*background-color: #ffb347;*/ /* pastel orange */
+	/*background-color: #c23b22;*/ /* dark pastel red */
+	background-color: #ff6961; /* pastel red */
+}
+
+#container {
+	background-color: #ffffff;
+}
+
+#top {
+	color: #c23b22;
+	margin: 0 2%;
+	padding: 0.5em 0;
+}
+
+h1 {
+	display: block;
+	margin: 0;
+	padding: inherit;
+	font-family: Chunk;
+	font-weight: normal;
+}
+
+input {
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+#top-input {
+	padding: inherit;
+	overflow: hidden;
+	padding: 0;
+}
+
+#top input {
+	font-size: 1em;
+	line-height: 2;
+	padding: 0;
+	width: 100%;
+	background-color: #fdfd96;
+/*	border: solid 0.1em #ffb347;*/
+	border: 0;
+	box-shadow: inset 0 0 0.2em #ffb347;
+}
+
+#popular {
+	display: block;
+	margin: 0 1%;
+	padding: 0;
+}
+
+#popular > li {
+	display: block;
+	font-family: Chunk;
+}
+
+#popular > li li {
+	font-family: Georgia;
+	background-color: #ffffff;
+}
+
+#popular ol {
+	padding: 0 1em;
+	margin-bottom: 1em;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
